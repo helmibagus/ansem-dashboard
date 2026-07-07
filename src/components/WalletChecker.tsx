@@ -27,7 +27,7 @@ export default function WalletChecker({ stats }: { stats: any }) {
 
   const checkWallet = async () => {
     if (!wallet.trim()) {
-      setError('Masukkan address wallet terlebih dahulu.');
+      setError('Enter the wallet address first.');
       return;
     }
 
