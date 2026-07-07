@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Arena Next.js PostgreSQL Starter",
+  title: "Ansem Dashboard",
   description: "Starter template with Next.js, Drizzle, and PostgreSQL.",
 };
 
