@@ -76,7 +76,7 @@ export default function WalletChecker({ stats }: { stats: any }) {
                 setError('');
               }}
               onKeyDown={(e) => e.key === 'Enter' && checkWallet()}
-              placeholder="Masukkan Solana wallet address"
+              placeholder="Enter the wallet address first"
               className="w-full pl-10 pr-4 py-3 bg-gray-900/80 border border-gray-700 rounded-xl text-sm text-white placeholder-gray-500 focus:outline-none focus:border-yellow-500/50"
             />
           </div>
