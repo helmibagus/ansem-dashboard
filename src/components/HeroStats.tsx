@@ -30,7 +30,7 @@ export default function HeroStats({ stats }: { stats: any }) {
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-500/10 border border-yellow-500/20 rounded-full mb-4">
             <span className="text-yellow-400 text-sm">🐂 {stats?.tokenName || 'The Black Bull'}</span>
-            <span className="text-xs text-gray-400">Token-2022 • Solana</span>
+            <span className="text-xs text-gray-400">Token-2026 • Solana</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-black mb-3">
             <span className="bg-gradient-to-r from-yellow-300 via-orange-400 to-red-500 bg-clip-text text-transparent">
