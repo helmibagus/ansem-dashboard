@@ -49,7 +49,7 @@ export default function Dashboard() {
         <div className="text-center">
           <div className="text-6xl mb-4 animate-bounce">🐂</div>
           <h1 className="text-2xl font-bold text-white mb-2">$ANSEM Live Holders</h1>
-          <p className="text-gray-400">Mengambil data holder real-time dari mint yang sama dengan Solscan...</p>
+          <p className="text-gray-400">Retrieving real-time holder data for the same mint from Solscan...</p>
           <div className="mt-4 flex justify-center gap-1">
             <div className="w-2 h-2 bg-yellow-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
             <div className="w-2 h-2 bg-yellow-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
